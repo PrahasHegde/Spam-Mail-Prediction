@@ -45,7 +45,7 @@ lr_prediction = lr.predict(new_X_test)
 
 #Accuracy of model
 accuracy = accuracy_score(y_test, lr_prediction)
-print(accuracy) # 0.9331550802139037
+print(accuracy) #0.9860383944153578
 
 #confusion matrix
 confmat = confusion_matrix(y_test,lr_prediction)
